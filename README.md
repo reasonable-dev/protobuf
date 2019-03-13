@@ -8,6 +8,31 @@ The goal of this project is to have a single install that:
 * (Future) Has a nice ReasonML interface
 * (Future) Exposes the `ocaml-protoc` CLI for code generation
 
+## Code Generation
+
+Code can be generated with the `ocaml-protoc` library.
+
+Install and build it with `esy`:
+```bash
+esy add @opam/ocaml-protoc
+esy build
+```
+
+You can check your install with:
+```bash
+esy ls-libs
+```
+
+To generate code that works with the BinaryRuntime:
+```bash
+esy x ocaml-protoc -binary -ml_out src src/messages.proto
+```
+
+To generate code that works with the JsonRuntime:
+```bash
+esy x ocaml-protoc -bs -ml_out src src/messages.proto
+```
+
 ## Acknowledgements
 
 This project pulls together parts from:
