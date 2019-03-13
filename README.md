@@ -1,5 +1,7 @@
 # @reasonable-dev/protobuf
 
+Gathering protobuf fragments into singular solution.
+
 ## Goal
 
 The goal of this project is to have a single install that:
