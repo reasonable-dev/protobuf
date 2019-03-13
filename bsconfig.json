@@ -1,7 +1,6 @@
 {
   "name": "@reasonable-dev/protobuf",
   "version": "0.0.0",
-  "namespace": "Protobuf",
   "sources": [
     {
       "dir": "src",
