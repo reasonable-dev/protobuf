@@ -1,0 +1,20 @@
+{
+  "name": "@reasonable-dev/protobuf",
+  "description": "Gathering protobuf fragments into singular solution.",
+  "version": "0.0.0",
+  "repository": "reasonable-dev/protobuf",
+  "author": "Blaine Bublitz <blaine.bublitz@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.18"
+  },
+  "keywords": [
+    "ReasonML",
+    "Protocol Buffers",
+    "BuckleScript"
+  ]
+}
