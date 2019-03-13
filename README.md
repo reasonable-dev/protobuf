@@ -14,9 +14,21 @@ The goal of this project is to have a single install that:
 
 Code can be generated with the `ocaml-protoc` library.
 
-Install and build it with `esy`:
+This module needs to be installed from my fork, so set up your `package.json` like:
+```json
+{
+  "devDependencies": {
+    "@opam/ocaml-protoc": "*"
+  },
+  "resolutions": {
+    "@opam/ocaml-protoc": "phated/bs-ocaml-protoc:opam#10b127a"
+  }
+}
+```
+
+Then run:
 ```bash
-esy add @opam/ocaml-protoc
+esy install
 esy build
 ```
 
